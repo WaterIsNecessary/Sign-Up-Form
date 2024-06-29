@@ -57,12 +57,7 @@
     flex: 1 1 68%;
     background-color:rgb(18, 20, 129);
     background-color: rgb(16, 44, 87);      
-  }
-
- /*  .side-column {
-    background-color: white;    
-    flex: 1 1 16vw;    
-  } */
+  } 
 
   .logo-background {
     background-color: rgb(255 255 255/ 0.7);    
