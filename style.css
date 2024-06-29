@@ -1,0 +1,101 @@
+/*custom free to use font */
+
+@font-face {
+    font-family: 'atari_classic_chunkyregular';
+    src: url('webfontkit-20240628-073359/atariclassicchunky-pxxp-webfont.woff2') format('woff2'),
+         url('webfontkit-20240628-073359/atariclassicchunky-pxxp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'andalaregular';
+    src: url('webfontkit-20240628-231222/andala-7bppw-webfont.woff2') format('woff2'),
+         url('webfontkit-20240628-231222/andala-7bppw-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*CSS Normalize / Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* CSS styling code */
+
+  body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;    
+  }
+
+  .image-container {        
+    background-image: url(david-shares-4_41-79dHvE-unsplash-medium.jpg);
+    background-size: 50vw;
+    background-repeat: cover;
+    flex: 1 1 32%;          
+  }
+
+  .form-container {
+    flex: 1 1 68%;
+    background-color:rgb(18, 20, 129);
+    background-color: rgb(16, 44, 87);      
+  }
+
+ /*  .side-column {
+    background-color: white;    
+    flex: 1 1 16vw;    
+  } */
+
+  .logo-background {
+    background-color: rgb(255 255 255/ 0.7);    
+    position: relative;
+    top: 27%;
+    display: flex;
+    justify-content: center;    
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    width: 50%;
+    gap: 2%;
+  }
+
+  .logo {            
+    max-width: 20%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;        
+  }   
+
+  h1 {
+    font-family: "atari_classic_chunkyregular", sans-serif ;
+    font-size: 1.3rem;
+    color: black;    
+  }
+
+  .form-intro {
+    font-family: 'andalaregular', sans-serif ;
+    font-size: 2.5rem;    
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+  }
